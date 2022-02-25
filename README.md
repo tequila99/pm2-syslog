@@ -22,10 +22,13 @@ $ sudo service rsyslog restart
 
 ```
 # Install
-$ pm2 install pm2-syslog
+$ pm2 install @tequila99/pm2-syslog
+
+# Test
+$ pm2 start "ls -la"
 
 # Uninstall
-$ pm2 uninstall pm2-syslog
+$ pm2 uninstall @tequila99/pm2-syslog
 ```
 
 # License
